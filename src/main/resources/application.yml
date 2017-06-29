@@ -1,0 +1,16 @@
+# EMBEDDED SERVER CONFIGURATION (ServerProperties)
+server:
+  port: 8085
+  error:
+   # When to include a "stacktrace" attribute.
+    include-stacktrace: never 
+
+
+  
+# BANNER
+banner:
+  location: classpath:/banner/banner.txt
+ 
+
+  
+   
